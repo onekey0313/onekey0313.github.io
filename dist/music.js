@@ -12,7 +12,7 @@ const ap = new APlayer({
       {
         name: '葬仙',
         artist: '叶里 / 苑舍',
-        url: 'https://m10.music.126.net/20180908171206/a67e219b35ed7ade346ade1efe69b229/ymusic/9483/730b/e865/e6d9b63fc979ee4bfda6844de98d77f9.mp3',
+        url: 'http://isure.stream.qqmusic.qq.com/C400002qIzSP0fxyG9.m4a?vkey=07FC6BBD9FDB83CE94EBBBD7934D2C5356071052AA55431B68421B968F8E125E60EB074006E376FCCF79107AF0494393E4ADC4501D071143&guid=6172684334&uin=3012234939&fromtag=66',
         cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537001555&di=04b103eb86005991468710945617b85f&imgtype=jpg&er=1&src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2Fbcfaa374b56588fe3b241e4cec959532b75a4116.png',
       },
       {
