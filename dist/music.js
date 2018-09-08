@@ -6,7 +6,7 @@ const ap = new APlayer({
       {
         name: "Lemmon",
         artist: '米津玄师',
-        url: 'https://m10.music.126.net/20180908170101/dfc7066576b7af8b29c45a91e5c14b72/ymusic/6eed/4ef2/d8ae/b85b958a70552f7e002e33d35075086c.mp3',
+        url: 'https://m10.music.126.net/20180908173054/7d6b2c1a8695a99641139adf06e0f2f4/ymusic/6eed/4ef2/d8ae/b85b958a70552f7e002e33d35075086c.mp3',
         cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536406773548&di=6cac2da9cdacdd182a6473e4d11555a9&imgtype=0&src=http%3A%2F%2Foss.tan8.com%2Fyuepuku%2F118%2F59343%2F59343_prev.jpg%3Fv%3D1524962090',
       },
       {
