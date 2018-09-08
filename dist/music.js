@@ -16,10 +16,10 @@ const ap = new APlayer({
         cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537001555&di=04b103eb86005991468710945617b85f&imgtype=jpg&er=1&src=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Farchive%2Fbcfaa374b56588fe3b241e4cec959532b75a4116.png',
       },
       {
-        name: '风筝误',
-        artist: '刘珂矣',
-        url: 'http://up.mcyt.net/?down/46644.mp3',
-        cover: 'http://oeff2vktt.bkt.clouddn.com/image/96.jpg',
+        name: '光るなら ',
+        artist: ' Goose house (グースハウス)',
+        url: 'http://isure.stream.qqmusic.qq.com/C400000QLt7U1aVGv8.m4a?vkey=2999B45D48024EE5AF9EDBD3AE5BBFA7462F28A10B916E66B301B31D3AEBE937FD1F48E19C068B668960B5FDD1A7CF77DD9C868AEA693588&guid=6172684334&uin=3012234939&fromtag=66 '
+        cover:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537010257&di=1f14aac2c1bd7ee602bab5dd4f9ec002&imgtype=jpg&er=1&src=http%3A%2F%2Fbbs.jd100.com%2Fattachment%2F1708%2Fthread%2F39_1393832_f88d44a8b184a61.jpg',
       }
     ]
 });
