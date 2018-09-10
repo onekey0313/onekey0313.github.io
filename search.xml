@@ -3,7 +3,10 @@
   <entry>
     <title><![CDATA[python基础学习(1)]]></title>
     <url>%2F2018%2F09%2F10%2Fpython%E5%9F%BA%E7%A1%80%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[呐，你说，这些真的有用吗？ 变量的命名 变量名只能包含字母，数字，下划线。变量名可以字母或下划线打头，但不能以数字打头。如：_name或name，不能以这种形式1_name 变量名不能包含空格，但可以使用下划线来分隔其中的字母。 不能将关键字和函数名当作变量名来使用。如print，查看关键字可运行help(&quot;keywords&quot;) 另变量名应既简短又具有描述性 变量名区分大小写，就是大写字母的变量名和小写字母的变量名两者是不同的。 字符串 字符串就是一系列字符，用引号括起的都是字符串，其中引号可以是单引号，也可以是双引号。如：‘’或“”（引号需是英文下的） 使用方法修改字符串的大小写123&gt;&gt;&gt; name = "tom"&gt;&gt;&gt; print(name.title())&gt;&gt;&gt; Tom 方法是Python可对数据执行的操作。 在name.title() 中，name 后面的句点（. ）让Python对变量name 执行方法title() 指定的操作。每个方法后面都跟着一对括号，这是因为方法通常需要额外的信息来完成 其工作。这种信息是在括号内提供的。函数title() 不需要额外的信息，因此它后面的括号是空的。 title() 以首字母大写的方式显示每个单词，即将每个单词的首字母都改为大写。 12345&gt;&gt;&gt; name = 'tom'&gt;&gt;&gt; print(name.lower())hjy&gt;&gt;&gt; print(name.upper())HJY 方法lower()把字母全改为小写 方法upper()把字母全改为大写 合并（拼接）字符串1234&gt;&gt;&gt; last_name = "lovelace"&gt;&gt;&gt; full_name = first_name + " " + last_name&gt;&gt;&gt; print(full_name)ada lovelace 使用加号（+ ）来合并字符串 数字整数 整数可执行加（+ ）减（- ）乘（* ）除（/ ）运算，两个乘号表示乘方运算，支持运算次序。 浮点数 带小数点的数字都称为浮点数 需要注意的是，结果包含的小数位数可能是不确定的： 1234&gt;&gt;&gt; 0.2 + 0.1 0.30000000000000004&gt;&gt;&gt; 3 * 0.1 0.30000000000000004 函数str() ， 可将非字符串值表示为字符串 注释 注释用井号（# ）标识。井号后面的内容都会被忽略。]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
       <tags>
         <tag>python notes</tag>
       </tags>
