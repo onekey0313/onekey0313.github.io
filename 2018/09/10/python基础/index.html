@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Joy&#39;s world of me">
 <meta property="og:description" content="呐，你说，这些真的有用吗？  1. 变量的命名 变量名只能包含字母，数字，下划线。变量名可以字母或下划线打头，但不能以数字打头。如：_name或name，不能以这种形式1_name  变量名不能包含空格，但可以使用下划线来分隔其中的字母。  不能将关键字和函数名当作变量名来使用。如print，查看关键字可运行help(&amp;quot;keywords&amp;quot;)  另变量名应既简短又具有描述性  变">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-15T08:17:10.998Z">
+<meta property="og:updated_time" content="2018-09-17T11:50:05.430Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python基础学习(1)">
 <meta name="twitter:description" content="呐，你说，这些真的有用吗？  1. 变量的命名 变量名只能包含字母，数字，下划线。变量名可以字母或下划线打头，但不能以数字打头。如：_name或name，不能以这种形式1_name  变量名不能包含空格，但可以使用下划线来分隔其中的字母。  不能将关键字和函数名当作变量名来使用。如print，查看关键字可运行help(&amp;quot;keywords&amp;quot;)  另变量名应既简短又具有描述性  变">
@@ -379,8 +379,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-09-15T16:17:10+08:00">
-                2018-09-15
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-17T19:50:05+08:00">
+                2018-09-17
               </time>
             
           </span>
@@ -444,7 +444,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  2.9k
+                  3.5k
                 </span>
               
 
@@ -460,7 +460,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  11
+                  14
                 </span>
               
             </div>
@@ -500,15 +500,15 @@
 </blockquote>
 <h3 id="2-1-使用方法修改字符串的大小写"><a href="#2-1-使用方法修改字符串的大小写" class="headerlink" title="2.1. 使用方法修改字符串的大小写"></a>2.1. 使用方法修改字符串的大小写</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>name = <span class="string">"tom"</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(name.title())</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>Tom</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p><strong>方法是Python可对数据执行的操作</strong>。 在name.title() 中，name 后面的句点（. ）让Python对变量name 执行方法title() 指定的操作。每个方法后面都跟着一对括号，这是因为方法通常需要额外的信息来完成 其工作。这种信息是在括号内提供的。函数title() 不需要额外的信息，因此它后面的括号是空的。 </p>
+<p><strong>方法是Python可对数据执行的操作</strong>。 在<code>name.title()</code> 中，name 后面的句点（. ）让Python对变量name 执行方法<code>title()</code> 指定的操作。每个方法后面都跟着一对<strong>括号</strong>，这是因为方法通常需要<strong>额外的信息(参数)</strong>来完成 其工作。这种信息是在括号内提供的。函数title() 不需要额外的信息，因此它后面的括号是空的。 </p>
 </blockquote>
 <ul>
 <li>title() 以<strong>首字母大写</strong>的方式显示每个单词，即将每个单词的首字母都改为大写。</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>name = <span class="string">'tom'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(name.lower())</span><br><span class="line">hjy</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(name.upper())</span><br><span class="line">HJY</span><br></pre></td></tr></table></figure>
 <ul>
-<li>方法lower()把字母全改为小写</li>
-<li>方法upper()把字母全改为大写</li>
+<li>方法<code>lower()</code>把字母全改为<strong>小写</strong></li>
+<li>方法<code>upper()</code>把字母全改为<strong>大写</strong></li>
 </ul>
 <h3 id="2-2-合并（拼接）字符串"><a href="#2-2-合并（拼接）字符串" class="headerlink" title="2.2. 合并（拼接）字符串"></a>2.2. 合并（拼接）字符串</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>last_name = <span class="string">"lovelace"</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>full_name = first_name + <span class="string">" "</span> + last_name</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>print(full_name)</span><br><span class="line">ada lovelace</span><br></pre></td></tr></table></figure>
 <ul>
@@ -667,6 +667,58 @@
 <ul>
 <li>如果需要存储的一组值在程序的整个生命周期内都<strong>不变</strong>，可使用元组。</li>
 </ul>
+<h2 id="if-语句"><a href="#if-语句" class="headerlink" title="if 语句"></a><code>if</code> 语句</h2><h3 id="条件测试"><a href="#条件测试" class="headerlink" title="条件测试"></a>条件测试</h3><blockquote>
+<p>每条if 语句的核心都是一个值为<code>True</code> 或<code>False</code> 的表达式，这种表达式被称为<strong>条件测试</strong></p>
+</blockquote>
+<ul>
+<li><strong>相等运算符</strong> （==）</li>
+</ul>
+<blockquote>
+<p>检查相等时无需考虑大小写</p>
+</blockquote>
+<ul>
+<li><strong>不相等运算符</strong> （!=）</li>
+</ul>
+<blockquote>
+<p>条件语句中可包含各种数学比较，如<strong>小于、小于等于、大于、大于</strong>。</p>
+</blockquote>
+<h3 id="检查多个条件"><a href="#检查多个条件" class="headerlink" title="检查多个条件"></a>检查多个条件</h3><ul>
+<li>需要在<strong>两个条件都为True</strong> 时才执行相应的操作：可使用关键字<code>and</code> 将两个条件测试合而为一；如果<strong>每个测试都通过了</strong>，整个表达式就为<code>True</code> ；如果<strong>有一个测试没有通过</strong>，整个表达式就 为<code>False</code> 。 </li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>age_0 = <span class="number">22</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>age_1 = <span class="number">18</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(age_0&gt;= <span class="number">21</span>) <span class="keyword">and</span> (age_1&gt;=<span class="number">21</span>)</span><br><span class="line"><span class="keyword">False</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(age_0&gt;= <span class="number">21</span>) <span class="keyword">and</span> (age_1&gt;=<span class="number">10</span>)</span><br><span class="line"><span class="keyword">True</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>而有时候<strong>只要求一个条件为True 时</strong>就执行相应的操作：关键字<code>or</code> 也能够让你检查多个条件，但<strong>只要至少需要一个条件满足</strong>，就能<strong>通过</strong>整个测试。<strong>仅当两个测试都没有通过时</strong>，才为<code>False</code> </li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>age_0 = <span class="number">22</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>age_1 = <span class="number">18</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(age_0 &gt;= <span class="number">21</span>) <span class="keyword">or</span> (age_1 &gt;= <span class="number">21</span>)  </span><br><span class="line"><span class="keyword">True</span>                                <span class="comment"># 仅一个条件满足</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>age_0 = <span class="number">18</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>(age_0 &gt;= <span class="number">21</span>) <span class="keyword">or</span> (age_1 &gt;= <span class="number">21</span>) </span><br><span class="line"><span class="keyword">False</span>                               <span class="comment"># 两个都不满足</span></span><br></pre></td></tr></table></figure>
+<h3 id="检查特定值是否包含在列表中"><a href="#检查特定值是否包含在列表中" class="headerlink" title="检查特定值是否包含在列表中"></a>检查特定值是否<strong>包含</strong>在列表中</h3><ul>
+<li>要判断特定的值是否已<strong>包含</strong>在列表中，可使用关键字<code>in</code> </li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>requested_toppings = [<span class="string">'mushrooms'</span>, <span class="string">'onions'</span>, <span class="string">'pineapple'</span>]</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'mushrooms'</span> <span class="keyword">in</span> requested_toppings</span><br><span class="line"><span class="keyword">True</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'pepperoni'</span> <span class="keyword">in</span> requested_toppings</span><br><span class="line"><span class="keyword">False</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>确定特定的值<strong>未包含</strong>在列表中，可使用关键字<code>not in</code> </li>
+</ul>
+<blockquote>
+<p>最简单的if 语句只有<strong>一个测试</strong>和<strong>一个操作</strong></p>
+</blockquote>
+<h3 id="if-else语句"><a href="#if-else语句" class="headerlink" title="if-else语句"></a><code>if-else</code>语句</h3><blockquote>
+<p>在条件测试通过了时执行一个操作，并在没有通过时执行另一个操作。</p>
+</blockquote>
+<ul>
+<li><code>if-elif-else</code>结构</li>
+<li>仅适合用于只有一个条件满足的情况</li>
+</ul>
+<blockquote>
+<p>检查超过两个条件的情况，往往其中间条件是 由<code>elif</code>引导的</p>
+</blockquote>
+<ul>
+<li><p>可使用多个 <code>elif</code>代码块</p>
+</li>
+<li><p>当然也可以省略 <code>else</code>代码块</p>
+</li>
+</ul>
+<blockquote>
+<p>如果你只想执行<strong>一个代码块</strong>，就使用<code>if-elif-else</code> 结构；如果要运行<strong>多个代码块</strong>，就使用一系列独立的<code>if</code> 语句。</p>
+</blockquote>
 
       
     </div>
@@ -897,7 +949,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-变量的命名"><span class="nav-number">1.</span> <span class="nav-text">1. 变量的命名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-字符串——“name”，‘hua’"><span class="nav-number">2.</span> <span class="nav-text">2. 字符串——“name”，‘hua’</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-使用方法修改字符串的大小写"><span class="nav-number">2.1.</span> <span class="nav-text">2.1. 使用方法修改字符串的大小写</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-合并（拼接）字符串"><span class="nav-number">2.2.</span> <span class="nav-text">2.2. 合并（拼接）字符串</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-数字"><span class="nav-number">3.</span> <span class="nav-text">3. 数字</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-整数"><span class="nav-number">3.1.</span> <span class="nav-text">3.1. 整数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-浮点数"><span class="nav-number">3.2.</span> <span class="nav-text">3.2. 浮点数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-注释"><span class="nav-number">4.</span> <span class="nav-text">4. 注释</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-列表——-‘hua’，2，"><span class="nav-number">5.</span> <span class="nav-text">5. 列表——[‘hua’，2，]</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-访问列表元素"><span class="nav-number">5.1.</span> <span class="nav-text">5.1. 访问列表元素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-使用列表中的各个值"><span class="nav-number">5.2.</span> <span class="nav-text">5.2. 使用列表中的各个值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-修改列表元素"><span class="nav-number">5.3.</span> <span class="nav-text">5.3. 修改列表元素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-4-在列表中添加元素"><span class="nav-number">5.4.</span> <span class="nav-text">5.4. 在列表中添加元素</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-1-在列表末尾添加元素"><span class="nav-number">5.4.1.</span> <span class="nav-text">5.4.1. 在列表末尾添加元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-2-在列表中插入元素"><span class="nav-number">5.4.2.</span> <span class="nav-text">5.4.2. 在列表中插入元素</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-5-从列表中删除元素"><span class="nav-number">5.5.</span> <span class="nav-text">5.5. 从列表中删除元素</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-1-使用del语句-删除元素"><span class="nav-number">5.5.1.</span> <span class="nav-text">5.5.1. 使用del语句 删除元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-2-使用方法-pop-删除元素删除元素"><span class="nav-number">5.5.2.</span> <span class="nav-text">5.5.2. 使用方法  pop() 删除元素删除元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-3-根据值删除元素"><span class="nav-number">5.5.3.</span> <span class="nav-text">5.5.3. 根据值删除元素</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-6-组织列表"><span class="nav-number">5.6.</span> <span class="nav-text">5.6. 组织列表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-1-使用-方法-sort-对列表进行永久性排序"><span class="nav-number">5.6.1.</span> <span class="nav-text">5.6.1. 使用 方法 sort() 对列表进行永久性排序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-2-使用-函数-sorted-对列表进行临时排序"><span class="nav-number">5.6.2.</span> <span class="nav-text">5.6.2. 使用 函数 sorted() 对列表进行临时排序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-3-倒着打印列表"><span class="nav-number">5.6.3.</span> <span class="nav-text">5.6.3. 倒着打印列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-4-确定列表的长度"><span class="nav-number">5.6.4.</span> <span class="nav-text">5.6.4. 确定列表的长度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-7-注意"><span class="nav-number">5.7.</span> <span class="nav-text">5.7. 注意</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-7-1-使用列表时避免索引错误"><span class="nav-number">5.7.1.</span> <span class="nav-text">5.7.1. 使用列表时避免索引错误</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作列表"><span class="nav-number">6.</span> <span class="nav-text">操作列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-8-遍历列表"><span class="nav-number">6.1.</span> <span class="nav-text">5.8. 遍历列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数range"><span class="nav-number">6.2.</span> <span class="nav-text">函数range()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-9-对数字列表执行简单的统计计算"><span class="nav-number">6.3.</span> <span class="nav-text">5.9. 对数字列表执行简单的统计计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-10-切片（处理列表的部分元素）"><span class="nav-number">6.4.</span> <span class="nav-text">5.10. 切片（处理列表的部分元素）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-10-1-遍历切片"><span class="nav-number">6.4.1.</span> <span class="nav-text">5.10.1. 遍历切片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-10-2-复制列表"><span class="nav-number">6.4.2.</span> <span class="nav-text">5.10.2. 复制列表</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#元组——-‘name’-“life”-2-3"><span class="nav-number">7.</span> <span class="nav-text">元组——(‘name’,“life”,2,3)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#定义元组"><span class="nav-number">7.1.</span> <span class="nav-text">定义元组</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-变量的命名"><span class="nav-number">1.</span> <span class="nav-text">1. 变量的命名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-字符串——“name”，‘hua’"><span class="nav-number">2.</span> <span class="nav-text">2. 字符串——“name”，‘hua’</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-使用方法修改字符串的大小写"><span class="nav-number">2.1.</span> <span class="nav-text">2.1. 使用方法修改字符串的大小写</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-合并（拼接）字符串"><span class="nav-number">2.2.</span> <span class="nav-text">2.2. 合并（拼接）字符串</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-数字"><span class="nav-number">3.</span> <span class="nav-text">3. 数字</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-整数"><span class="nav-number">3.1.</span> <span class="nav-text">3.1. 整数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-浮点数"><span class="nav-number">3.2.</span> <span class="nav-text">3.2. 浮点数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-注释"><span class="nav-number">4.</span> <span class="nav-text">4. 注释</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-列表——-‘hua’，2，"><span class="nav-number">5.</span> <span class="nav-text">5. 列表——[‘hua’，2，]</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-访问列表元素"><span class="nav-number">5.1.</span> <span class="nav-text">5.1. 访问列表元素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-使用列表中的各个值"><span class="nav-number">5.2.</span> <span class="nav-text">5.2. 使用列表中的各个值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-修改列表元素"><span class="nav-number">5.3.</span> <span class="nav-text">5.3. 修改列表元素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-4-在列表中添加元素"><span class="nav-number">5.4.</span> <span class="nav-text">5.4. 在列表中添加元素</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-1-在列表末尾添加元素"><span class="nav-number">5.4.1.</span> <span class="nav-text">5.4.1. 在列表末尾添加元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-2-在列表中插入元素"><span class="nav-number">5.4.2.</span> <span class="nav-text">5.4.2. 在列表中插入元素</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-5-从列表中删除元素"><span class="nav-number">5.5.</span> <span class="nav-text">5.5. 从列表中删除元素</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-1-使用del语句-删除元素"><span class="nav-number">5.5.1.</span> <span class="nav-text">5.5.1. 使用del语句 删除元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-2-使用方法-pop-删除元素删除元素"><span class="nav-number">5.5.2.</span> <span class="nav-text">5.5.2. 使用方法  pop() 删除元素删除元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-5-3-根据值删除元素"><span class="nav-number">5.5.3.</span> <span class="nav-text">5.5.3. 根据值删除元素</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-6-组织列表"><span class="nav-number">5.6.</span> <span class="nav-text">5.6. 组织列表</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-1-使用-方法-sort-对列表进行永久性排序"><span class="nav-number">5.6.1.</span> <span class="nav-text">5.6.1. 使用 方法 sort() 对列表进行永久性排序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-2-使用-函数-sorted-对列表进行临时排序"><span class="nav-number">5.6.2.</span> <span class="nav-text">5.6.2. 使用 函数 sorted() 对列表进行临时排序</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-3-倒着打印列表"><span class="nav-number">5.6.3.</span> <span class="nav-text">5.6.3. 倒着打印列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-6-4-确定列表的长度"><span class="nav-number">5.6.4.</span> <span class="nav-text">5.6.4. 确定列表的长度</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-7-注意"><span class="nav-number">5.7.</span> <span class="nav-text">5.7. 注意</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-7-1-使用列表时避免索引错误"><span class="nav-number">5.7.1.</span> <span class="nav-text">5.7.1. 使用列表时避免索引错误</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作列表"><span class="nav-number">6.</span> <span class="nav-text">操作列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-8-遍历列表"><span class="nav-number">6.1.</span> <span class="nav-text">5.8. 遍历列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数range"><span class="nav-number">6.2.</span> <span class="nav-text">函数range()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-9-对数字列表执行简单的统计计算"><span class="nav-number">6.3.</span> <span class="nav-text">5.9. 对数字列表执行简单的统计计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-10-切片（处理列表的部分元素）"><span class="nav-number">6.4.</span> <span class="nav-text">5.10. 切片（处理列表的部分元素）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-10-1-遍历切片"><span class="nav-number">6.4.1.</span> <span class="nav-text">5.10.1. 遍历切片</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-10-2-复制列表"><span class="nav-number">6.4.2.</span> <span class="nav-text">5.10.2. 复制列表</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#元组——-‘name’-“life”-2-3"><span class="nav-number">7.</span> <span class="nav-text">元组——(‘name’,“life”,2,3)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#定义元组"><span class="nav-number">7.1.</span> <span class="nav-text">定义元组</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#if-语句"><span class="nav-number">8.</span> <span class="nav-text">if 语句</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#条件测试"><span class="nav-number">8.1.</span> <span class="nav-text">条件测试</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#检查多个条件"><span class="nav-number">8.2.</span> <span class="nav-text">检查多个条件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#检查特定值是否包含在列表中"><span class="nav-number">8.3.</span> <span class="nav-text">检查特定值是否包含在列表中</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#if-else语句"><span class="nav-number">8.4.</span> <span class="nav-text">if-else语句</span></a></li></ol></li></ol></div>
             
 
           </div>
